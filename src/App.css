@@ -1,0 +1,28 @@
+.App {
+  padding: 0 20px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+
+.header__text {
+  font-size: 38px;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .App {
+      padding: 0 120px;
+    }
+}

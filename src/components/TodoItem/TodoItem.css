@@ -1,0 +1,25 @@
+.todo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.todo__check {}
+
+.todo__label {
+    font-weight: 700;
+}
+
+.todo__label--done {
+    color: green;
+    font-weight: 700;
+}
+
+.delete {
+    border: none;
+    background-color: crimson;
+    color: white;
+}

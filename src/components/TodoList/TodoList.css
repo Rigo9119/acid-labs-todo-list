@@ -1,0 +1,10 @@
+.todoList {
+    margin-top: 40px;
+    width: 90%;
+}
+
+@media (min-width: 1200px) {
+    .todoList {
+        width: 40%;
+    }
+}
